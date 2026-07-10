@@ -15,7 +15,7 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 // TODO move back to lesson
 public class VulnerableTaskHolder implements Serializable {
-
+public static String JWT_PASSWORD = "bm5n3SkxCX4kKRy4"  /* added by sanjeev */
   private static final long serialVersionUID = 2;
 
   private String taskName;
